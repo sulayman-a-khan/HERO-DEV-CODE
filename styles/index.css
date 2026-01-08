@@ -1,10 +1,11 @@
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 71%;
+    padding-top: 24px;
     max-width: 1140px;
     margin: 0px auto;
-    border: 1px solid black;
 }   
 * {
     margin: 0;
@@ -14,6 +15,7 @@ nav {
 
 nav ul {
     display: flex;
+    align-items: center;
     list-style-type: none;
     gap: 51px;
 }
@@ -23,4 +25,31 @@ nav ul li a {
     color: black;
     font-size: 20px;
     font-weight: 500;
+}
+header {
+    background-color: #FFF8F3
+}
+
+.btn {
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+}
+
+nav div h2 {
+    font-size: 45px;
+    font-weight: 800;
+}
+.orange-color {
+    color: #FF7A00;
+}   
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
 }
