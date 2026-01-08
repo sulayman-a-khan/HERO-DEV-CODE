@@ -28,9 +28,11 @@ nav ul li a {
 header {
     background-color: #FFF8F3;
     background-image: url('../images/developer.png') , url('../images/header_bg.png');
-    background-position: left 0 top 40px, right 0 bottom 0;
+    background-position: left 0 top 0, right 0 bottom 0;
     background-repeat: no-repeat;
     padding-top: 50px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .btn {
@@ -89,4 +91,78 @@ nav div h2 {
 .image-content img {
     max-width: 585px;
     vertical-align: middle;
+}
+#about {
+    width: 71%;
+    max-width: 1140px;
+    margin: 104px auto 0px auto;
+    background-color: #FFF8F3;
+    padding: 131px 156px 131px 156px;
+}
+.about-container h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+.about-container p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-info {
+    display: flex;
+    justify-content: space-between;
+}
+.info-item p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+    text-align: center;
+}
+.info-item h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(68, 67, 67);
+    margin-bottom: 10px;
+}
+#more-about {
+    width: 71%;
+    max-width: 1140px;
+    margin: 100px auto 0px auto;
+    width: 827px;
+}
+.skills {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 0px auto;
+    width: 71%;
+    gap: 24px;
+    max-width: 1140px;
+}
+.skills .skill-card {
+    padding: 30px;
+    max-width: 267px;
+     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.196) ;
+    border-radius: 10px;
+    
+}
+
+.skills .skill-card img {
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skills .skill-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.skills .skill-card p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
 }
