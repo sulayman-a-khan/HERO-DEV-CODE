@@ -166,3 +166,61 @@ nav div h2 {
     line-height: 28px;
     color: #757575;
 }
+#resume .resume-container {
+    margin-top: 130px;
+    margin-bottom: 113px;
+
+}
+#resume .resume-container .resume-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    text-align: center;
+    
+}
+.eduexp {
+    display: flex;
+    justify-content: space-between;
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0px auto;
+    gap: 24px;
+  
+}
+.education-section h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+.education-item h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: #474747;
+}
+.education-item span {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: block;
+    color: #474747 ;
+}
+.education-item p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 30px;
+    
+}
+.education-item {
+    padding-right: 71px;
+}
+.middlebtn {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
